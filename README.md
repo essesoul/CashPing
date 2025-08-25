@@ -82,8 +82,6 @@
 | `MAIL_SUBJECT` |  | 自定义邮件标题（默认：`🎉 收款成功 · <金额> · <商品>`） |
 | `MAIL_HEADERS` |  | 额外头部（JSON 字符串），如 `{"List-Unsubscribe":"<mailto:...>"}` |
 | `MAIL_HTML` |  | 覆盖默认中文模板的完整 HTML（支持占位符） |
-| `SITE_URL` |  | 模板头部 Logo 的链接目标 |
-| `LOGO_URL` |  | 模板头部 Logo 图片地址 |
 
 > ✳︎ 当你希望启用**邮件通知**时，`MAIL_TO` 和 `MAIL_FROM` 必填。
 
