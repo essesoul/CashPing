@@ -1,5 +1,9 @@
 # CashPing 收到钱了 - Stripe 收款通知聚合器
 
+⚠ 目前仅测试了 Server酱 Turbo ，其他渠道如果有问题欢迎提 Issue
+
+----
+
 当 **Stripe** 收到支付成功事件时，自动通过 **邮件（MailChannels）/ Server酱Turbo / 钉钉机器人 / Telegram Bot** 等渠道把“喜讯”推送给你。  
 **单文件部署**、**全部配置走环境变量**，无需改代码，即可在 Cloudflare 网页端完成上线。
 
