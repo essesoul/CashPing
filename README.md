@@ -76,6 +76,7 @@
 
 | 变量名 | 必填 | 示例/说明 |
 |---|:---:|---|
+| `MAILCHANNELS_API_KEY` | ✳︎ | MailChannel API Key |
 | `MAIL_TO` | ✳︎ | 收件人邮箱，支持多个（逗号分隔）`you@example.com,ops@example.com` |
 | `MAIL_FROM` | ✳︎ | 发件人邮箱，例如 `no-reply@yourdomain.com` |
 | `MAIL_FROM_NAME` |  | 发件人显示名，默认“收款通知” |
